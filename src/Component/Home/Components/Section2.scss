@@ -1,0 +1,21 @@
+.about_container{
+    background-color: black;
+    padding: 2rem 0;
+    color: white;
+
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        .title{
+            background-color: red;
+            width: 50%;
+            margin-left: 10%;
+            .heading{
+                font-size: 2rem;
+                font-family: "never";
+            }
+        }
+    }
+}
