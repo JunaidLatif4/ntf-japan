@@ -1,3 +1,22 @@
-.footer_container{
-    background-color: yellow;
+.footer_container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Work Sans, Ma Shan Zheng, New Tegomin, sans-serif;
+    font-size: 1.3rem;
+    padding: 2rem 0;
+    gap: 1rem;
+    color: white;
+    font-style: italic;
+    .socials {
+      display: flex;
+      gap: 1rem;
+    }
+  }
 }

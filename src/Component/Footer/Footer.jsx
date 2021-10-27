@@ -1,7 +1,8 @@
 import React from 'react'
 
-import Discord from "../../assets/discord.svg"
-import Twitter from "../../assets/twitter.svg"
+import Discord from "../../assets/DiscordSvg"
+import TwitterSvg from '../../assets/TwitterSvg'
+
 
 import "./Footer.scss"
 
@@ -12,8 +13,8 @@ const Footer = () => {
                 <div className="box">
                     <p> Join our discord if you have any questions, our team will always be there to help you </p>
                     <div className="socials">
-                        <img src={Discord} alt="ERROR" />
-                        <img src={Twitter} alt="ERROR" />
+                        <Discord color="white" width="40px" />
+                        <TwitterSvg color="white" width="40px" />
                     </div>
                 </div>
             </div>
