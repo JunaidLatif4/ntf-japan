@@ -1,6 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceberg&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@font-face {
+  font-family: "neverj";
+  src: local("never"), url("./assets/never.ttf") format("truetype");
+  font-weight: normal;
+}
 * {
   margin: 0;
   padding: 0;
-  @import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Pacifico&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 }

@@ -1,0 +1,76 @@
+.section6_container {
+  padding: 20rem 0;
+  position: relative;
+  background-color: black;
+  padding-bottom: 5rem;
+  .mountain {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    img {
+      transform: rotate(180deg);
+    }
+    .black {
+      background-color: rgba(0, 0, 0, 0.411);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    * {
+      z-index: 10;
+    }
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    .heading {
+      font-family: "neverj";
+      font-size: 5rem;
+      color: white;
+      span {
+        color: red;
+      }
+    }
+    .data {
+      display: flex;
+      justify-content: center;
+
+      .cards {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 5rem;
+
+        .card {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 1rem;
+          font-family: Work Sans,Ma Shan Zheng,New Tegomin,sans-serif;
+          img {
+            width: 65%;
+          }
+          .h{
+              color: white;
+              margin-top: 1rem;
+              font-size: 1.5rem;
+              font-style: italic;
+          }
+          .s{
+              color: white;
+              font-size: 1.3rem;
+              font-style: italic;
+          }
+        }
+      }
+    }
+  }
+}
