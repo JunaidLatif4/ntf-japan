@@ -1,9 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  @import url("https://fonts.googleapis.com/css2?family=Iceberg&display=swap");
-  @font-face {
-    font-family: "never";
-    src: local("never"), url(./assets/never-settle/never.ttf) format(truetype);
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Pacifico&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 }
