@@ -7,31 +7,31 @@
 
   .b1 {
     position: absolute;
-    height: 650px;
-    bottom: -10%;
-    left: -10%;
+    height: 550px;
+    bottom: -5%;
+    left: -7%;
     z-index: 5;
   }
   .b2 {
     position: absolute;
-    height: 600px;
-    bottom: -13%;
-    left: 9%;
+    height: 500px;
+    bottom: -7%;
+    left: 13%;
     z-index: 4;
   }
   .b3 {
     position: absolute;
-    height: 650px;
-    bottom: -10%;
-    right: -10%;
+    height: 550px;
+    bottom: -5%;
+    right: -7%;
     z-index: 5;
     transform: scaleX(-1);
   }
   .b4 {
     position: absolute;
-    height: 600px;
-    bottom: -13%;
-    right: 9%;
+    height: 500px;
+    bottom: -7%;
+    right: 13%;
     z-index: 4;
     transform: scaleX(-1);
   }

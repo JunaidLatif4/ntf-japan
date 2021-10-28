@@ -13,7 +13,7 @@ import './Hero.scss'
 const Hero = () => {
     return (
         <>
-        <section id="hero" className="hero_container">
+        <section id="home" className="hero_container">
             <div className="box">
                 <img src={Title} alt="ERROR" />
                 <div className="btns">

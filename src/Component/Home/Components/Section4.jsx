@@ -24,7 +24,7 @@ const Section4 = () => {
                         <div className="img"> <img src={S5} alt="ERROR" /> </div>
                         <div className="img"> <img src={S6} alt="ERROR" /> </div>
                         <div className="img"> <img src={S7} alt="ERROR" /> </div>
-                        <div className="img"> <img src={S8} alt="ERROR" /> </div>
+                        {/* <div className="img"> <img src={S8} alt="ERROR" /> </div> */}
                     </div>
                 </div>
             </div>
