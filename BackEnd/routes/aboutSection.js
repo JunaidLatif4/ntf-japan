@@ -39,7 +39,7 @@ router.post("/", async (req, res) => {
             let doc = await AboutModel.findOneAndUpdate({ "sectionName": "about" }, {
                 $set: { [req.body.path]: `${req.body.content}` }
             }, { new: true })
-            res.json({ msg: "Data Found", doc })
+            res.json({ msg: "Data UPDATED", doc })
         }
     } catch (err) {
         res.status(500).json({ msg: "Internal Server Error" })

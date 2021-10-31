@@ -12,3 +12,28 @@
 html{
   scroll-behavior: smooth;
 }
+body{
+  .MuiDialog-paper{
+    background-color: black;
+    color: white;
+    border: 2px solid #bf393a;
+    width: 60%;
+
+    .MuiDialogContent-root{
+      overflow-y: unset;
+    }
+    .greenbtn{
+      color: green;
+    }
+
+
+  }
+  .content_textarea{
+    width: -webkit-fill-available;
+    font-size: 1.3rem;
+    padding: 1rem;
+    height: 150px;
+    background-color: black;
+    color: white;
+  }
+}
