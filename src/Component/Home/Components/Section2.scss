@@ -4,6 +4,16 @@
   color: white;
   position: relative;
 
+  .positionrelative{
+    position: relative
+  }
+  .aboutedit{
+    position: absolute;
+    left: -7%;
+    top: 0%;
+    cursor: pointer;
+  }
+
   .blood {
     position: absolute;
     top: 0;
