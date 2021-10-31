@@ -18,7 +18,7 @@ mongoose.connect("mongodb://localhost/nftjapan" || process.env.mongodb)
     .catch((err) => console.log("Error While Connecting to DB ===== ", err))
 
 
-app.use("/about", aboutRoute)
+app.use("/api/about", aboutRoute)
 
 app.listen(process.env.port, () => {
     // console.clear();
